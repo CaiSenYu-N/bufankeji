@@ -1,0 +1,60 @@
+@import "var.scss";
+@media(min-width:768px) {
+    .header {
+        width: 100%;
+        .header-c {
+            position: relative;
+            width: $width;
+            height: 80px;
+            margin: 0 auto;
+            // background-color: green;
+        }
+        .logo {
+            display: block;
+            float: left;
+            margin-left: 1px;
+            margin-top: 28px;
+        }
+        .nav {
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            .nav-item {
+                float: left;
+                margin-left: 60px;
+                width: 73px;
+                height: 100%;
+                line-height: 80px;
+                text-align: center;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 53px;
+                    font-size: 15px;
+                    font-family: "Microsoft YaHei";
+                    color: rgb( 78, 78, 78 );
+                    text-align: justifyLeft;
+                }  
+            }
+            .nav-item.active a{
+                font-size: 15px;
+                font-family: "Microsoft YaHei";
+                color: rgb( 16, 115, 216 );
+                text-align: justifyLeft;
+                border-bottom: 2px solid rgb( 16, 115, 216 );
+            }
+            .nav-item:hover a{
+                font-size: 15px;
+                font-family: "Microsoft YaHei";
+                color: rgb( 16, 115, 216 );
+                text-align: justifyLeft;
+                border-bottom: 2px solid rgb( 16, 115, 216 );
+            }
+            .nav-item:last-child {
+                // text-align: right;
+                margin-right: -6.5px;
+            }
+        }
+    }
+}

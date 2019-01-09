@@ -1,0 +1,81 @@
+@import "var.scss";
+@media(min-width:768px) {
+    .footer {
+        width: 100%;
+        height: 386px;
+        .footer-about-us {
+            width: 100%;
+            height: 328px;
+            background-color: #323943;
+            .footer-about-us-c {
+                position: relative;
+                width: $width;
+                height: 100%;
+                background-color: #323943;
+                // background-color: #ccc;
+                margin: 0 auto;
+                .contact-us {
+                    position: absolute;
+                    left: 0;
+                    top: 64px;
+                    span:first-child {
+                        font-size: 24px;
+                        font-family: "FZLTZHK";
+                        color: rgb( 243, 243, 243 );
+                        text-align: justifyLeft; 
+                    }
+                    span:last-child{
+                            font-size: 14px;
+                            font-family: "PingFangSC";
+                            color: rgb( 194, 194, 194 );
+                            text-align: justifyLeft;
+                    }  
+                }
+                .about {
+                    position: absolute;
+                    top: 162px;
+                        font-size: 16px;
+                        font-family: "FZLTXHK";
+                        color: rgb( 194, 194, 194 );
+                    .about-item {
+                        float: left;
+                        p {
+                            height: 28px;
+                            line-height: 28px;
+                        }
+                    }
+                    .about_1 {
+                        width: 160px;
+                    }
+                    .about_2 {
+                        width: 271px;
+                        margin-left: 220px;
+                    }
+                    .about_3 {
+                        margin-left: 85px;
+                        width: 448px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .admission {
+            width: 100%;
+            height: 58px;
+            background-color: #272e36;
+            .admission-c {
+                width: $width;
+                height: 100%;
+                background-color: #272e36;
+                margin: 0 auto;
+                .admission-dec {
+                    height: 100%;
+                    line-height: 58px;
+                    font-size: 14px;
+                    font-family: "PingFangSC";
+                    color: rgb( 149, 149, 149 );    
+                }
+            }
+        }
+    }
+}
