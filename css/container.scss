@@ -88,7 +88,7 @@
         .mobile {
             width: 100%;
             .mobile-c {
-                width: 1200px;
+                width: $width;
                 height: 772px;
                 margin: 0 auto;
                 // background-color: red;
@@ -217,7 +217,7 @@
             background-color: $gray;
             .web-c {
                 position: relative;
-                width: 1200px;
+                width: $width;
                 height: 100%;
                 margin: 0 auto;
                 background-color: $gray;
@@ -312,9 +312,9 @@
         }
         .success {
             width: 100%;
-            height: 986px;
+            height: 842px;
             .success-c {
-                width: 1200px;
+                width: $width;
                 height: 100%;
                 margin: 0 auto;
                 .success-header {
@@ -322,11 +322,23 @@
                     margin-top: 144px;
                     width: 100%;
                     height: 80px;
-                    background-color: red;
+                    // background-color: red;
                     .success-title {
                         float: left;
                         width: 204px;
                         height: 100%;
+                        .succ-cn {
+                            font-size: 24px;
+                            font-family: "FZLTZHK";
+                            color: rgb( 73, 73, 73 );
+                            text-align: justifyLeft;
+                        }
+                        .succ-en {
+                            font-size: 14px;
+                            font-family: "FZLTXHK";
+                            color: rgb( 195, 195, 195 );
+                            text-align: justifyLeft;
+                        }
                     }
                     .success-nav {
                         position: absolute;
@@ -334,9 +346,177 @@
                         width: 356px;
                         height: 100%;
                         .success-nav-item {
+                            float: left;
                             width: 73px;
                             height: 31px;
+                            a {
+                                display: block;
+                                width: 100%;
+                                height: 31px;
+                                line-height: 31px;
+                                font-size: 15px;
+                                text-align: center;
+                                font-family: "PingFangSC";
+                                color: rgb( 133, 133, 133 );
+                                text-align: justifyLeft;                                 
+                            }
                         }
+                        .success-nav-item.active a {
+                            display: block;
+                            width: 73px;
+                            height: 31px;
+                            background-color: #1073d8;
+                            font-size: 15px;
+                            font-family: "PingFangSC";
+                            color: rgb( 255, 255, 255 );
+                            text-align: justifyLeft;
+                        } 
+                        .success-nav-item:first-child {
+                            margin-left: 64px;
+                        }
+                        .success-nav-item:hover a{
+                            display: block;
+                            width: 73px;
+                            height: 31px;
+                            background-color: #1073d8;
+                            font-size: 15px;
+                            font-family: "PingFangSC";
+                            color: rgb( 255, 255, 255 );
+                            text-align: justifyLeft;
+                        }
+                    }
+                }
+                .case {
+                    position: absolute;
+                    width: $width;
+                    height: 612px;
+                    .case-detail {
+                        position: relative;
+                        float: left;
+                        width: 383px;
+                        height: 292px;
+                        margin-right: 22.5px;
+                        margin-bottom: 26px;
+                        text-align: center;
+                        border: 1px solid #eeeeee;
+                        .case-title {
+                            font-size: 16px;
+                            font-family: "PingFangSC";
+                            color: rgb( 85, 85, 85 );
+                            text-align: justifyLeft;
+                            font-weight: bolder;
+                        }
+                        .industry {
+                            font-size: 14px;
+                            font-family: "PingFangSC";
+                            color: rgb( 179, 179, 179 );
+                            line-height: 1.714;
+                            text-align: center;
+                        }
+                    }
+                    .case-detail:nth-child(3n) {
+                        width: 383px;
+                        margin-right: 0;
+                    }
+                    .succ-btn {
+                        position: absolute;
+                        top: 636px;
+                        left: 50%;
+                        display: inline-block;
+                        text-align: center;
+                        cursor: pointer;
+                        width: 33px;
+                        height: 33px;
+                        line-height: 33px;
+                        font-size: 16px;
+                        color: #c6c6c6;
+                        font-weight: bolder;
+                        margin-right: 20px;
+                        border: 1px solid #f1f1f1;
+                        border-radius: 50%;
+                        box-shadow: 0px -1px 5px 0.5px #eee,   
+                                    -1px 0px 5px 0.5px #eee,   
+                                    1px 0px 5px 0.5px #eee,   
+                                    0px 1px 15px 0.5px #eee;    
+                    }
+                    .succ-btn.active {
+                        color: #fff;
+                        background-color: #1073d8;
+                        border: none;
+                        box-shadow: 0px -1px 5px 0.5px #1073d8,   
+                                    -1px 0px 5px 0.5px #1073d8,   
+                                    1px 0px 5px 0.5px #1073d8,   
+                                    0px 1px 15px 0.5px #1073d8;    
+                    }
+                    .succ-btn:hover {
+                        color: #fff;
+                        background-color: #1073d8;
+                        border: none;
+                        box-shadow: 0px -1px 5px 0.5px #1073d8,   
+                                    -1px 0px 5px 0.5px #1073d8,   
+                                    1px 0px 5px 0.5px #1073d8,   
+                                    0px 1px 15px 0.5px #1073d8; 
+                    }
+                    .succ-btn-l {
+                        margin-left: -60.5px;
+                    }
+                    .succ-btn-r {
+                        margin-left: 27.5px;
+                    }
+                }
+            }
+        }
+        .about-us {
+            width: 100%;
+            height: 506px;
+            background-color: $gray;
+            .about-us-c {
+                position: relative;
+                width: $width;
+                height: 100%;
+                margin: 0 auto;
+                background-color: $gray;
+                .about-l {
+                    float: left;
+                    width: 534px;
+                    height: 100%;
+                    .about-title {
+                        margin-top: 142px;
+                        font-size: 24px;
+                        font-family: "FZLTZHK";
+                        color: rgb( 73, 73, 73 );
+                        text-align: justifyLeft;
+                        .about-en {
+                            font-size: 14px;
+                            font-family: "PingFangSC";
+                            color: rgb( 195, 195, 195 );
+                            text-align: justifyLeft;    
+                        }
+                    }
+                    .about-detail {
+                        margin-top: 35px;
+                        font-size: 15px;
+                        font-family: "FZLTXHK";
+                        color: rgb( 149, 149, 149 );
+                        line-height: 1.867;
+                        text-align: left;
+                    }
+                }
+                .about-r {
+                    position: absolute;
+                    right: 0;
+                    top: 111px;
+                    width: 548px;
+                    height: 100%;
+                    .dec {
+                        width: 509px;
+                        height: 276px;
+                        border: 1px solid #e2e2e2;
+                    }
+                    .bufan-img {
+                        position: absolute;
+                        left: 18px;
+                        top: 19px;
                     }
                 }
             }
