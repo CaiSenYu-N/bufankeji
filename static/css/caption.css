@@ -1,0 +1,28 @@
+.caption {
+  width: 100%;
+  background-color: #f7f8f9;
+}
+
+.caption .caption-c {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f7f8f9;
+}
+
+.caption .caption-c .caption-cn {
+  padding-top: 60px;
+  font-size: 32px;
+  font-family: "FZLTZHK";
+  color: #181818;
+  text-align: justifyLeft;
+}
+
+.caption .caption-c .caption-en {
+  padding-bottom: 55px;
+  font-size: 14px;
+  font-family: "FZLTXHK";
+  color: #c3c3c3;
+  text-align: justifyLeft;
+}
+/*# sourceMappingURL=caption.css.map */

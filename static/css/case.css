@@ -62,9 +62,12 @@
 }
 
 .container .container-c .article .btn {
+  position: relative;
+  left: 50%;
+  top: 40px;
   width: 184px;
   height: 39px;
-  margin-top: 40px;
+  margin-left: -92px;
   color: #fff;
   background-color: #1073d8;
   border: none;
@@ -109,7 +112,6 @@
   height: 291px;
   text-align: center;
   border: 1px solid #eeeeee;
-  margin-right: 21px;
 }
 
 .container .container-c .other .other-count .other-item .other-item-title {

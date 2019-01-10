@@ -1,0 +1,54 @@
+@import "var.scss";
+.job {
+    width: 100%;
+    .job-c {
+        width: $width;
+        margin: 0 auto;
+        .job-detail {
+            width: 100%;
+            padding-top: 51px;
+            padding-bottom: 53px;
+            .job-img {
+                float: left; 
+            }
+            .job-introduction-t {
+                margin-left: 350px;
+            }
+            .job-introduction-b {
+                margin-left: 350px;
+            }
+            p{
+                height: 26px;
+                line-height: 26px;
+                font-size: 14px;
+                font-family: "FZLTXHK";
+                color: rgb( 82, 82, 82 );
+                text-align: justifyLeft;
+            }
+            .job-des {
+                font-size: 16px;
+                font-family: "FZLTZHK";
+                color: rgb( 82, 82, 82 );
+                text-align: justifyLeft;  
+                font-weight: bolder;
+                margin-bottom: 15px;
+            }
+            .email {
+                margin-top: 90px;
+                margin-bottom: 137px;
+                font-size: 18px;
+                font-family: "FZLTZHK";
+                color: rgb( 82, 82, 82 );
+                text-align: justifyLeft;
+                font-weight: bolder;
+            }
+        }
+        .job-line {
+            border-bottom: 1px solid #e5e5e5;
+        }
+    }
+}
+
+
+ 
+  

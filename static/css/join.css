@@ -1,0 +1,59 @@
+.job {
+  width: 100%;
+}
+
+.job .job-c {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.job .job-c .job-detail {
+  width: 100%;
+  padding-top: 51px;
+  padding-bottom: 53px;
+}
+
+.job .job-c .job-detail .job-img {
+  float: left;
+}
+
+.job .job-c .job-detail .job-introduction-t {
+  margin-left: 350px;
+}
+
+.job .job-c .job-detail .job-introduction-b {
+  margin-left: 350px;
+}
+
+.job .job-c .job-detail p {
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  font-family: "FZLTXHK";
+  color: #525252;
+  text-align: justifyLeft;
+}
+
+.job .job-c .job-detail .job-des {
+  font-size: 16px;
+  font-family: "FZLTZHK";
+  color: #525252;
+  text-align: justifyLeft;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.job .job-c .job-detail .email {
+  margin-top: 90px;
+  margin-bottom: 137px;
+  font-size: 18px;
+  font-family: "FZLTZHK";
+  color: #525252;
+  text-align: justifyLeft;
+  font-weight: bolder;
+}
+
+.job .job-c .job-line {
+  border-bottom: 1px solid #e5e5e5;
+}
+/*# sourceMappingURL=join.css.map */
