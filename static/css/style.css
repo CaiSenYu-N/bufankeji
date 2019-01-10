@@ -14,6 +14,9 @@
     margin-left: 1px;
     margin-top: 28px;
   }
+  .header .line-box {
+    display: none;
+  }
   .header .nav {
     position: absolute;
     right: 0;
@@ -56,6 +59,62 @@
   }
 }
 
+@media (max-width: 768px) {
+  .header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header .header-c {
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .header .header-c .logo {
+    max-width: 10%;
+    float: left;
+  }
+  .header .header-c .line-box {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 25px;
+  }
+  .header .header-c .line-box .line {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #323943;
+  }
+  .header .header-c .line-box .line:first-child {
+    margin-top: 3px;
+  }
+  .header .header-c .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    background-color: rgba(50, 57, 67, 0.95);
+  }
+  .header .header-c .nav .nav-item {
+    text-align: center;
+  }
+  .header .header-c .nav .nav-item a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 14.5%;
+    border-bottom: 1px solid #eee;
+    text-align: justifyLeft;
+  }
+}
+
 .swiper-wrapper {
   width: 100%;
   height: 538px;
@@ -66,7 +125,7 @@
   height: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .container {
     width: 100%;
   }
@@ -583,7 +642,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .footer {
     width: 100%;
     height: 386px;
@@ -660,6 +719,78 @@
     font-size: 14px;
     font-family: "PingFangSC";
     color: #959595;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+    background-color: #323943;
+  }
+  .footer .footer-about-us {
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #646565;
+  }
+  .footer .footer-about-us .footer-about-us-c {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer .footer-about-us .footer-about-us-c .contact-us {
+    width: 100%;
+    text-align: center;
+  }
+  .footer .footer-about-us .footer-about-us-c .contact-us span:first-child {
+    display: block;
+    font-size: 16px;
+    font-family: "FZLTZHK";
+    color: #f3f3f3;
+    text-align: justifyLeft;
+    padding-top: 10%;
+  }
+  .footer .footer-about-us .footer-about-us-c .contact-us span:last-child {
+    display: block;
+    font-size: 12px;
+    font-family: "PingFangSC";
+    color: #c2c2c2;
+    text-align: justifyLeft;
+  }
+  .footer .footer-about-us .footer-about-us-c .about {
+    width: 100%;
+  }
+  .footer .footer-about-us .footer-about-us-c .about .about-item {
+    width: 100%;
+    height: 90px;
+    text-align: justifyLeft;
+    font-size: 14px;
+    font-family: "FZLTXHK";
+    color: #fff;
+    padding-top: 30px;
+  }
+  .footer .footer-about-us .footer-about-us-c .about .about-item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .footer .admission {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #272e36;
+  }
+  .footer .admission .admission-c {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .footer .admission .admission-c .admission-dec {
+    font-size: 16px;
+    font-family: "PingFangSC";
+    color: #959595;
+    text-align: center;
+  }
+  .footer .admission .admission-c .admission-dec span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
