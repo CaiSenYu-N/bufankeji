@@ -122,7 +122,6 @@
     font-size: 14px;
     font-family: "FZLTXHK";
     color: #fff;
-    padding-top: 10px;
   }
   .footer .footer-about-us .footer-about-us-c .about .about-item .logo-png {
     display: none;
@@ -133,6 +132,7 @@
   }
   .footer .footer-about-us .footer-about-us-c .about .about-item:first-child {
     height: 30px;
+    padding-top: 20px;
   }
   .footer .admission {
     width: 100%;
