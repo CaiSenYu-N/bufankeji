@@ -901,9 +901,8 @@
                         width: 100%;
                         // padding-top: 2%;
                         margin-bottom: 6%;
-                        border-left: 1px solid #ddd;
-                        border-right: 1px solid #ddd;
-                        border-bottom: 1px solid #ddd;
+                        border: 1px solid #ddd;
+                        border-top: none;
                         a {
                             display: block;
                             width: 100%;

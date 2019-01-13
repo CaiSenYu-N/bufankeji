@@ -1010,9 +1010,8 @@
   .container .success .success-c .case .case-detail {
     width: 100%;
     margin-bottom: 6%;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    border-top: none;
   }
   .container .success .success-c .case .case-detail a {
     display: block;
