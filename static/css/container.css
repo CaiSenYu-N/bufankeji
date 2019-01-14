@@ -708,6 +708,7 @@
     top: 70%;
     width: 37.5%;
     margin-left: -20%;
+    z-index: 999;
   }
   .container .mobile .mobile-c .mobile-r .weixin {
     position: absolute;

@@ -718,7 +718,8 @@
                         left: 50%;
                         top: 70%;
                         width: 37.5%;
-                        margin-left: -20%
+                        margin-left: -20%;
+                        z-index: 999;
                     }
                     .weixin {
                         position: absolute;
